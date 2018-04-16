@@ -1,5 +1,5 @@
 label, #text_val, #text_input {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 input {
@@ -12,5 +12,15 @@ input::-webkit-input-placeholder {
 }
 
 #options {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+[class*="sprite-"] {
+  height: 1454px;
+  width: 642px;
+  display: inline-block;
+}
+
+.sprite-checkbox {
+  background: url('/sprites/form-elements-sprite.png') 0 0;
 }
